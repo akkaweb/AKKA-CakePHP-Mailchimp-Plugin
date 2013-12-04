@@ -11,7 +11,7 @@ To see a demo of this plugin in action, simply visit `http://www.akkaweb.com` an
 
 1. Download Plugin from this page
 2. Copy the content of this plugin into the `APP/Plugin/Mailchimp`
-3. Load it into CakePHP using `CakePlugin::loadAll('Mailchimp')`
+3. Load it into CakePHP using `CakePlugin::load('Mailchimp', array('bootstrap' => false, 'routes' => false));`
 
 ## Usage
 1. Add the following into the `Config\bootstrap.php` file
