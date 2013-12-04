@@ -32,5 +32,5 @@ To see a demo of this plugin in action, simply visit `http://www.akkaweb.com` an
 
 3. If you choose not to use the preset element form files, you can create your own form as long as you include `action="/mailchimp/mailchimp/subscribe"` and `method="post"`. Also you need to have a `hidden <input> field`, where you can include your Newsletter Id. This is optional as you can assign your Id in the bootstrap.php file as explained above.
 
-That is pretty much all you have to do to have this working.
+That is pretty much all you have to do to have this working. 
 
