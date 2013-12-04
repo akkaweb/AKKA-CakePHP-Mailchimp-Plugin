@@ -14,12 +14,14 @@ To see a demo of this plugin in action, simply visit `http://www.akkaweb.com` an
 3. Load it into CakePHP using `CakePlugin::loadAll('Mailchimp')`
 
 ## Usage
-1. Add the following into the `Config\bootstrap.php`
+1. Add the following into the `Config\bootstrap.php` file
+
   `Configure::write('Mailchimp.apiKey', 'YOUR API KEY');`
   `Configure::write('Mailchimp.default_list_id', 'DEFAULT LIST ID');`
   `Configure::write('Mailchimp.ssl_verifypeer', 'FALSE');`
   `Configure::write('Mailchimp.update_existing', 'TRUE');`
   `Configure::write('Mailchimp.send_welcome', 'TRUE');`
+  
 2. You can use the predefined form element files (APP/Plugin/Mailchimp/View/Elements/), which uses `Bootstrap 3.0` by doing the following:
 
   #### Ajax Form (You need to include jQuery)
