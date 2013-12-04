@@ -5,6 +5,8 @@ This Plugin allows CakePHP to interact with the Mailchimp API. Currently I am in
 
 This plugin works with CakePHP 2.x, Mailchimp API 2.x and it also takes advantage of Bootstrap 3.0.
 
+To see a demo of this plugin in action, simply visit `http://www.akkaweb.com` and on the header section you will see the newsletter form.
+
 ## Setup
 
 1. Download Plugin from this page
