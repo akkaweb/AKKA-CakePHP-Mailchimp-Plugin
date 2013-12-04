@@ -18,5 +18,15 @@ This plugin works with CakePHP 2.x, Mailchimp API 2.x and it also takes advantag
   `Configure::write('Mailchimp.ssl_verifypeer', 'FALSE');`
   `Configure::write('Mailchimp.update_existing', 'TRUE');`
   `Configure::write('Mailchimp.send_welcome', 'TRUE');`
-2. 
+2. You can use the predefined form element files (APP/Plugin/Mailchimp/View/Elements/), which uses `Bootstrap 3.0` by doing the following:
+
+  #### Ajax Form (You need to include jQuery)
+  Add `<?php echo $this->element('Mailchimp.ajax-subscribe-form', array('id' => 'e8f18607b0')); ?>` into your view file, where you want your form to appear. Optional you can pass in your Newsletter `id` as depicted above. If you only have one newsletter, you can simply assigned the Newsletter ID in your `bootstrap` as explained above. 
+  
+  #### Regular Form
+  Add `<?php echo $this->element('Mailchimp.ajax-subscribe-form', array('id' => 'e8f18607b0')); ?>` into your view file, where you want yoru form to appear. Also, if you only have one newsletter, you can simply assigned the Newsletter ID in your `bootstrap` as explained above. 
+
+3. If you choose not to use the preset element form files, you can create your own form as long as you include `action="/mailchimp/mailchimp/subscribe"` and `method="post"`. Also you need to have a `hidden <input> field`, where you can include your Newsletter Id. This is optional as you can assign your Id in the bootstrap.php file as explained above.
+
+That is pretty much all you have to do to have this working.
 
