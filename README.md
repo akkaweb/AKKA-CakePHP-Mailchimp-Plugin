@@ -25,7 +25,7 @@ To see a demo of this plugin in action, simply visit `http://www.akkaweb.com` an
 2. You can use the predefined form element files (APP/Plugin/Mailchimp/View/Elements/), which uses `Bootstrap 3.0` by doing the following:
 
   #### Ajax Form (You need to include jQuery)
-  Add `<?php echo $this->element('Mailchimp.ajax-subscribe-form', array('id' => 'xxxxxxxx')); ?>` into your view file, where you want your form to appear. Optional you can pass in your Newsletter `id` as depicted above. If you only have one newsletter, you can simply assigned the Newsletter ID in your `bootstrap` as explained above. 
+  Add `<?php echo $this->element('Mailchimp.ajax-subscribe-form', array('id' => 'xxxxxxxx')); ?>` into your view file, where you want your form to appear. Optionally you can pass in your newsletter `id` as depicted above. If you only have one newsletter, you can simply assign the newsletter ID in your `bootstrap` as explained above. 
   
   #### Regular Form
   Add `<?php echo $this->element('Mailchimp.ajax-subscribe-form', array('id' => 'xxxxxxxx')); ?>` into your view file, where you want yoru form to appear. Also, if you only have one newsletter, you can simply assigned the Newsletter ID in your `bootstrap` as explained above. 
