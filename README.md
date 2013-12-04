@@ -1,7 +1,7 @@
 AKKA-CakePHP-Mailchimp-Plugin
 =============================
 
-This Plugin allows CakePHP to interact with the Mailchimp API. Currently I am in the first stages of developing this Plugin and it can only Subscribe a user. However, future version will include much more.
+This Plugin allows CakePHP to interact with the Mailchimp API. Currently I am in the first stages of developing this plugin and as of now it can only Subscribe a user, which is the most important anyway. However, future version will include much more, like an admin backend where you can view subscribers, send newsletters from you backend, etc. That is the plan, time permitting....
 
 This plugin works with CakePHP 2.x, Mailchimp API 2.x and it also takes advantage of Bootstrap 3.0.
 
