@@ -7,7 +7,7 @@ This plugin works with CakePHP 2.x, Mailchimp API 2.x and it also takes advantag
 
 ## Setup
 
-1. Download Plugin here
+1. Download Plugin from this page
 2. Copy the content of this plugin into the `APP/Plugin/Mailchimp`
 3. Looad it into CakePHP using `CakePlugin::loadAll('Mailchimp')`
 
