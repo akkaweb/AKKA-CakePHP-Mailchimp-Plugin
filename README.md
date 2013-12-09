@@ -38,3 +38,7 @@ To see a demo of this plugin in action, simply visit `http://www.akkaweb.com` an
 
 That is pretty much all you have to do to have this working. 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/akkaweb/akka-cakephp-mailchimp-plugin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
