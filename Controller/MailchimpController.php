@@ -46,9 +46,6 @@ class MailchimpController extends MailchimpAppController{
     /*
      * This action/method can be called by any form to subscribe an user
      * 
-     * @method POST
-     * @params Any data accepted by Mailchimp ie. fname, lname, email, id, etc
-     * @return JSON encoded object if AJAX or redirect if not
      */
     public function subscribe(){  
         if(isset($this->_update_existing) && $this->_update_existing != ''){
